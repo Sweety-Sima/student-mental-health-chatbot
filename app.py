@@ -118,8 +118,7 @@ def chatbot(message, history):
 
 demo = gr.ChatInterface(
     fn=chatbot,
-    type="messages",
-    title="Student Mental Health AI Chatbot",
+    title="Student Mental Health Chatbot",
     description="Ask questions in Bangla, English or Banglish."
 )
 
